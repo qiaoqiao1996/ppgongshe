@@ -24,7 +24,7 @@ var navs = [{
 	"href" : "index/index/systemParameter.html",
 	"spread" : false
 },{
-	"title" : "二级菜单演示",
+	"title" : "手机卡管理",
 	"icon" : "&#xe61c;",
 	"href" : "",
 	"spread" : false,
@@ -36,9 +36,9 @@ var navs = [{
 			"spread" : false
 		},
 		{
-			"title" : "二级菜单2",
+			"title" : "手机卡列表",
 			"icon" : "&#xe631;",
-			"href" : "",
+			"href" : "index/mobilecard/cardList",
 			"spread" : false
 		}
 	]
