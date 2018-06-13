@@ -1,0 +1,12 @@
+
+            {foreach $data as  $k=>$v}
+		    <tr>
+		    	<td><input type="checkbox"  value="{$v.com_id}" lay-skin="primary"   id="allChoose"></td>
+		    	<td>{$v.com_name}</td>
+		    	<td>{$v.comm_name}</td>
+		    	<td>{$v.com_time}</td>
+		    	<td>{$v.com_adress}</td>
+		    	<td><a href="javascript::" class="layui-btn layui-btn-danger" id="del" name="{$v.com_id}">删除</a>
+		    		<a href="javascript::" class="layui-btn" id="up" name="{$v.com_id}">修改</a></td>
+		    </tr>
+		    {/foreach}

@@ -1,0 +1,266 @@
+[ 2018-06-06T20:19:39+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/ [运行时间：0.348894s][吞吐率：2.87req/s] [内存消耗：1,652.42kb] [文件加载：46]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/shixun1/ppgongshe/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'ECS[visit_times]=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-06T20:19:39+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/index/index/main.html
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/index/index/main.html [运行时间：0.154899s][吞吐率：6.46req/s] [内存消耗：1,655.15kb] [文件加载：46]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/shixun1/ppgongshe/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'ECS[visit_times]=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-06T20:19:59+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/index/img/imgshow.html
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/index/img/imgshow.html [运行时间：0.598818s][吞吐率：1.67req/s] [内存消耗：2,437.02kb] [文件加载：54]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'img',
+    2 => 'imgshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'ECS[visit_times]=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Img->imgShow[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Img.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\public/../application/index\view\img\img_show.html [ array (
+  0 => 'total',
+  1 => 'date',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117804s ] mysql:dbname=ppcommune;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_img` [ RunTime:0.091846s ]
+[ sql ] [ SQL ] SELECT `img_id`,`img_path`,`goods_name` FROM `pp_goods_img` INNER JOIN `pp_goods` `pp_goods` ON `pp_goods_img`.`goods_id`=`pp_goods`.`goods_id` LIMIT 6 [ RunTime:0.052978s ]
+[ sql ] [ SQL ] select count(*) from pp_goods_img [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods` [ RunTime:0.027106s ]
+[ sql ] [ SQL ] SELECT `goods_id`,`goods_name` FROM `pp_goods` [ RunTime:0.000977s ]
+
+---------------------------------------------------------------
+[ 2018-06-06T20:25:47+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/index/img/imgs
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/index/img/imgs [运行时间：0.146182s][吞吐率：6.84req/s] [内存消耗：2,366.77kb] [文件加载：52]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'img',
+    2 => 'imgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1805181 MicroMessenger/6.5.7 Language/zh_CN webview/',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx49e8547674851240/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Img->imgs[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Img.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003623s ] mysql:dbname=ppcommune;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_img` [ RunTime:0.012654s ]
+[ sql ] [ SQL ] SELECT `img_id`,`img_path`,`goods_name` FROM `pp_goods_img` INNER JOIN `pp_goods` `pp_goods` ON `pp_goods_img`.`goods_id`=`pp_goods`.`goods_id` [ RunTime:0.000710s ]
+
+---------------------------------------------------------------
+[ 2018-06-06T20:26:34+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/index/img/imgs
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/index/img/imgs [运行时间：0.066017s][吞吐率：15.15req/s] [内存消耗：2,366.41kb] [文件加载：52]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'img',
+    2 => 'imgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'ECS[visit_times]=2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Img->imgs[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Img.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:dbname=ppcommune;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_img` [ RunTime:0.012893s ]
+[ sql ] [ SQL ] SELECT `img_id`,`img_path`,`goods_name` FROM `pp_goods_img` INNER JOIN `pp_goods` `pp_goods` ON `pp_goods_img`.`goods_id`=`pp_goods`.`goods_id` [ RunTime:0.000570s ]
+
+---------------------------------------------------------------
+[ 2018-06-06T20:27:19+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/index/img/imgs
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/index/img/imgs [运行时间：0.123114s][吞吐率：8.12req/s] [内存消耗：2,366.77kb] [文件加载：52]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'img',
+    2 => 'imgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1805181 MicroMessenger/6.5.7 Language/zh_CN webview/',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx49e8547674851240/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Img->imgs[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Img.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:dbname=ppcommune;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_img` [ RunTime:0.019201s ]
+[ sql ] [ SQL ] SELECT `img_id`,`img_path`,`goods_name` FROM `pp_goods_img` INNER JOIN `pp_goods` `pp_goods` ON `pp_goods_img`.`goods_id`=`pp_goods`.`goods_id` [ RunTime:0.000891s ]
+
+---------------------------------------------------------------
+[ 2018-06-06T20:28:51+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/index/img/imgs
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/index/img/imgs [运行时间：0.103810s][吞吐率：9.63req/s] [内存消耗：2,366.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'img',
+    2 => 'imgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1805181 MicroMessenger/6.5.7 Language/zh_CN webview/',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx49e8547674851240/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Img->imgs[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Img.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001533s ] mysql:dbname=ppcommune;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_img` [ RunTime:0.014346s ]
+[ sql ] [ SQL ] SELECT `img_id`,`img_path`,`goods_name` FROM `pp_goods_img` INNER JOIN `pp_goods` `pp_goods` ON `pp_goods_img`.`goods_id`=`pp_goods`.`goods_id` [ RunTime:0.000907s ]
+
+---------------------------------------------------------------
+[ 2018-06-06T20:33:27+08:00 ] ::1 ::1 GET /shixun1/ppgongshe/ppgongshe/public/index/img/imgs
+[ log ] localhost/shixun1/ppgongshe/ppgongshe/public/index/img/imgs [运行时间：0.125046s][吞吐率：8.00req/s] [内存消耗：2,366.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\web\WWW\shixun1\ppgongshe\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'img',
+    2 => 'imgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1805181 MicroMessenger/6.5.7 Language/zh_CN webview/',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx49e8547674851240/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Img->imgs[ E:\web\WWW\shixun1\ppgongshe\ppgongshe\application\index\controller\Img.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001278s ] mysql:dbname=ppcommune;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_img` [ RunTime:0.015349s ]
+[ sql ] [ SQL ] SELECT `img_id`,`img_path`,`goods_name` FROM `pp_goods_img` INNER JOIN `pp_goods` `pp_goods` ON `pp_goods_img`.`goods_id`=`pp_goods`.`goods_id` [ RunTime:0.001084s ]
+
+---------------------------------------------------------------
