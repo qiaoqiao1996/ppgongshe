@@ -134,5 +134,24 @@ var navs = [{
 			"spread" : false
 		}
 	]
+},{
+	"title" : "手机号管理",
+	"icon" : "&#xe61c;",
+	"href" : "",
+	"spread" : false,
+	"children" : [
+		{
+			"title" : "二级菜单1",
+			"icon" : "&#xe631;",
+			"href" : "",
+			"spread" : false
+		},
+		{
+			"title" : "手机号列表",
+			"icon" : "&#xe631;",
+			"href" : "index/mobilecard/cardList",
+			"spread" : false
+		}
+	]
 }
 ]
