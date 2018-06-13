@@ -66,7 +66,9 @@ var navs = [{
 		}
 	]
 },{
+
 	"title" : "商品标题",
+	"title" : "手机号管理",
 	"icon" : "&#xe61c;",
 	"href" : "",
 	"spread" : false,
@@ -126,6 +128,9 @@ var navs = [{
 			"title" : "小区列表",
 			"icon" : "&#xe631;",
 			"href" : "index/comm/Community_show.html",
+			"title" : "手机号列表",
+			"icon" : "&#xe631;",
+			"href" : "index/mobilecard/cardList",
 			"spread" : false
 		}
 	]

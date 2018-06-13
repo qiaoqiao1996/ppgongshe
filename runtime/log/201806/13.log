@@ -1,0 +1,802 @@
+[ 2018-06-13T10:32:39+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [è¿è¡Œæ—¶é—´ï¼š0.221771s][ååç‡ï¼š4.51req/s] [å†…å­˜æ¶ˆè€—ï¼š1,324.86kb] [æ–‡ä»¶åŠ è½½ï¼š34]
+[ error ] [4]syntax error, unexpected '<<' (T_SL), expecting ']'[D:\phpStudy\WWW\1\ppgongshe\application\database.php:18]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:33:24+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [è¿è¡Œæ—¶é—´ï¼š0.178561s][ååç‡ï¼š5.60req/s] [å†…å­˜æ¶ˆè€—ï¼š1,646.09kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857165',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:33:25+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [è¿è¡Œæ—¶é—´ï¼š0.186024s][ååç‡ï¼š5.38req/s] [å†…å­˜æ¶ˆè€—ï¼š1,648.92kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857165',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:34:24+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index.php
+[ log ] localhost/1/ppgongshe/public/index.php [è¿è¡Œæ—¶é—´ï¼š0.224460s][ååç‡ï¼š4.46req/s] [å†…å­˜æ¶ˆè€—ï¼š1,690.76kb] [æ–‡ä»¶åŠ è½½ï¼š50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[xÚíTën£F~™HŞühÄ%i‚RWÅ8Æƒ‰Áæ2?vƒ=Æ—Ô‡ïHb§Rß H–a.g¾ó]æ&™N’üP|ÿñ}r…Õş÷ûûœñşÛ{7ùãï?\'w7æør{7™N_¬ùt:y¾éû~:ùíÿçòLÿÚ7!ûöÎb¼XœltV‡®ÒcS Ì.‰<«Ÿ°ot‘lô(iSCåk[2’aJ‡ıYCr»Œ2R˜Zú¨eXŒ2K=¥FKûD^bk4%’[ã±Çª äkMMC_¥oš›}ĞiWG™+]K%¯¹çNêÙ<™ùÊ¯VšcÃy–-‡¹ªâuôEõ3CsÖx‹_¾l5ô‹ÅåéŒE9ô”yÑ¬å
+Î)¯y•]éâ¥p<CŸÙS…4›÷×ÇKT™[µ|íT8gVâ„RäØEà=¤‘¾£œOaıçØ›3Ëˆ¤œBIi±w_:k×°7Êm)ğÚâ½·ò¿ÎCóğ[¡H{¹ô¦±G Ñ ÀQì5ÒØƒ¾ö°)(Z
+cËFë;8÷xŒ2»ÂçÓbğn‰Ôˆk”€N”É¡Î`qæ6ĞÛçY+çı¬—œGĞTd‘ì
+«K¿€x¯µYŸŠsƒŞæà²³¸G 6ğRãì‰ó}óµâK®àK"‹õÅë!p®0mAÿÔbÜ«D†¾óÜÔ—1ÖâxåÌ†ÚÀC<Ã~Ø£À8Ò1xüıµ.Õ•^xıìã©%ì-R¼49Î#htÜ;4‰åXæY²1$ÿXWä(s·¾3Î/|gX CnŠ”ü«Ö»¿ÁH0ç/Å×Ÿhû:WùØ=ä¾wı Yb×Üã8[TÈšİ å‹¯ã”eWàÔÑà›ÔĞ7å~Ô*ùº>5€O®õ)ÔTîÑé‹¸h‡Üm@/ĞˆÈnkß«\‡N›bí>YŸLÉŸ­³G•±sÃ÷‚—éêÂ+E[¢ÌíH‚F<¼¾è›ow±7âİ®4L¹ÇÍ®<€Ê`ğXÅûå§¡÷Eü~Ñİ{¢Ÿ9@§óş-áx>ğŞjà~/¼{±|Û
+ÂØï8Ïı÷CØá~Ã×[1hÒ¬R¥ÆØl÷sİ¡rªğÜŞ¼5f8şÜóq/ù 	à:àJ~n¥yÀ»S4Ü/ğ{«ŞwÒ:õ5/»‹A»•nA?ÉZ()ö¬¡ßl˜¢P™Î~\„x]³k›NnoŸÿæQæ(13) : eval()'d code(1) : eval()'d code:7]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:08+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [è¿è¡Œæ—¶é—´ï¼š0.151513s][ååç‡ï¼š6.60req/s] [å†…å­˜æ¶ˆè€—ï¼š1,646.30kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857211',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:08+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [è¿è¡Œæ—¶é—´ï¼š0.212341s][ååç‡ï¼š4.71req/s] [å†…å­˜æ¶ˆè€—ï¼š1,648.92kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857211',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:14+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleAdd
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleAdd [è¿è¡Œæ—¶é—´ï¼š0.241120s][ååç‡ï¼š4.15req/s] [å†…å­˜æ¶ˆè€—ï¼š1,644.98kb] [æ–‡ä»¶åŠ è½½ï¼š45]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857211',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleAdd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:15+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleShow
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleShow [è¿è¡Œæ—¶é—´ï¼š0.281861s][ååç‡ï¼š3.55req/s] [å†…å­˜æ¶ˆè€—ï¼š2,327.45kb] [æ–‡ä»¶åŠ è½½ï¼š52]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleShow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857315',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'ppcommune'[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:42+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [è¿è¡Œæ—¶é—´ï¼š0.199325s][ååç‡ï¼š5.02req/s] [å†…å­˜æ¶ˆè€—ï¼š1,646.27kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857315',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:43+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [è¿è¡Œæ—¶é—´ï¼š0.249636s][ååç‡ï¼š4.01req/s] [å†…å­˜æ¶ˆè€—ï¼š1,648.80kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857315',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:44+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleAdd
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleAdd [è¿è¡Œæ—¶é—´ï¼š0.213300s][ååç‡ï¼š4.69req/s] [å†…å­˜æ¶ˆè€—ï¼š1,644.90kb] [æ–‡ä»¶åŠ è½½ï¼š45]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857315',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleAdd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:44+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleShow
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleShow [è¿è¡Œæ—¶é—´ï¼š0.399037s][ååç‡ï¼š2.51req/s] [å†…å­˜æ¶ˆè€—ï¼š2,401.15kb] [æ–‡ä»¶åŠ è½½ï¼š53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleShow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857315',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleShow.html [ array (
+  0 => 'data',
+  1 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011427s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_show_title` [ RunTime:0.092045s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pp_show_title` LIMIT 1 [ RunTime:0.007207s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_show_title` LIMIT 0,6 [ RunTime:0.001059s ]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:44+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [è¿è¡Œæ—¶é—´ï¼š0.154747s][ååç‡ï¼š6.46req/s] [å†…å­˜æ¶ˆè€—ï¼š1,387.22kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/showtitle/titleShow',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528810049,1528857165; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857315',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:35:59+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [è¿è¡Œæ—¶é—´ï¼š0.188707s][ååç‡ï¼š5.30req/s] [å†…å­˜æ¶ˆè€—ï¼š1,645.96kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:00+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [è¿è¡Œæ—¶é—´ï¼š0.427359s][ååç‡ï¼š2.34req/s] [å†…å­˜æ¶ˆè€—ï¼š1,648.54kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:03+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleAdd
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleAdd [è¿è¡Œæ—¶é—´ï¼š0.111806s][ååç‡ï¼š8.94req/s] [å†…å­˜æ¶ˆè€—ï¼š1,644.41kb] [æ–‡ä»¶åŠ è½½ï¼š45]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleAdd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:04+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleShow
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleShow [è¿è¡Œæ—¶é—´ï¼š0.281020s][ååç‡ï¼š3.56req/s] [å†…å­˜æ¶ˆè€—ï¼š2,400.71kb] [æ–‡ä»¶åŠ è½½ï¼š53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleShow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleShow.html [ array (
+  0 => 'data',
+  1 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005086s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_show_title` [ RunTime:0.048929s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pp_show_title` LIMIT 1 [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_show_title` LIMIT 0,6 [ RunTime:0.002848s ]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:05+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [è¿è¡Œæ—¶é—´ï¼š0.091498s][ååç‡ï¼š10.93req/s] [å†…å­˜æ¶ˆè€—ï¼š1,386.82kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/showtitle/titleShow',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:16+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goodscategory/categoryAdd
+[ log ] localhost/1/ppgongshe/public/index/goodscategory/categoryAdd [è¿è¡Œæ—¶é—´ï¼š0.366511s][ååç‡ï¼š2.73req/s] [å†…å­˜æ¶ˆè€—ï¼š2,681.22kb] [æ–‡ä»¶åŠ è½½ï¼š54]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goodscategory',
+    2 => 'categoryAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Goodscategory->categoryAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Goodscategory.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\goodscategory\categoryAdd.html [ array (
+  0 => 'datas',
+  1 => 'goods_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002172s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_category` [ RunTime:0.050235s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_category` [ RunTime:0.001892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_type` [ RunTime:0.051684s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_type` [ RunTime:0.001617s ]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:30+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/comm_type_show.html
+[ log ] localhost/1/ppgongshe/public/index/buurt/comm_type_show.html [è¿è¡Œæ—¶é—´ï¼š0.336227s][ååç‡ï¼š2.97req/s] [å†…å­˜æ¶ˆè€—ï¼š2,448.02kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'buurt',
+    2 => 'comm_type_show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Buurt->comm_type_show[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Buurt.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\comm_type_show.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002837s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_comm_type` [ RunTime:0.036405s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pp_comm_type` LIMIT 1 [ RunTime:0.003559s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_comm_type` LIMIT 0,5 [ RunTime:0.001303s ]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:30+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [è¿è¡Œæ—¶é—´ï¼š0.113531s][ååç‡ï¼š8.81req/s] [å†…å­˜æ¶ˆè€—ï¼š1,387.16kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/buurt/comm_type_show.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:31+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/comm_type.html
+[ log ] localhost/1/ppgongshe/public/index/buurt/comm_type.html [è¿è¡Œæ—¶é—´ï¼š0.425650s][ååç‡ï¼š2.35req/s] [å†…å­˜æ¶ˆè€—ï¼š1,657.88kb] [æ–‡ä»¶åŠ è½½ï¼š46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'buurt',
+    2 => 'comm_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Buurt->comm_type[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Buurt.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\comm_type.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:33+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/slideshow.html
+[ log ] localhost/1/ppgongshe/public/index/buurt/slideshow.html [è¿è¡Œæ—¶é—´ï¼š0.524311s][ååç‡ï¼š1.91req/s] [å†…å­˜æ¶ˆè€—ï¼š2,411.31kb] [æ–‡ä»¶åŠ è½½ï¼š53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'buurt',
+    2 => 'slideshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Buurt->slideshow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Buurt.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\slideshow.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008487s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_community` [ RunTime:0.049491s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_community` [ RunTime:0.001588s ]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:33+08:00 ] ::1 ::1 GET /1/ppgongshe/public/json/systemParameter.json
+[ log ] localhost/1/ppgongshe/public/json/systemParameter.json [è¿è¡Œæ—¶é—´ï¼š0.112734s][ååç‡ï¼š8.87req/s] [å†…å­˜æ¶ˆè€—ï¼š1,386.67kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'json',
+    1 => 'systemParameter.json',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/buurt/slideshow.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:34+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/slidestrate.html
+[ log ] localhost/1/ppgongshe/public/index/buurt/slidestrate.html [è¿è¡Œæ—¶é—´ï¼š0.497907s][ååç‡ï¼š2.01req/s] [å†…å­˜æ¶ˆè€—ï¼š2,343.36kb] [æ–‡ä»¶åŠ è½½ï¼š52]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'buurt',
+    2 => 'slidestrate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Buurt->slidestrate[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Buurt.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\slidestrate.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012007s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_advertisin` [ RunTime:0.051779s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_advertisin` [ RunTime:0.002395s ]
+
+---------------------------------------------------------------
+[ 2018-06-13T10:36:34+08:00 ] ::1 ::1 GET /1/ppgongshe/public/json/linksList.json
+[ log ] localhost/1/ppgongshe/public/json/linksList.json [è¿è¡Œæ—¶é—´ï¼š0.162577s][ååç‡ï¼š6.15req/s] [å†…å­˜æ¶ˆè€—ï¼š1,386.69kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'json',
+    1 => 'linksList.json',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/buurt/slidestrate.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

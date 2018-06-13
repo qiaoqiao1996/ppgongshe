@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "9b50b5a6ec1997f82c76374e36194892",
+=======
+    "content-hash": "10ecc1be8c7145f5af3d07c10f1098ff",
+>>>>>>> b11d7c045e1ae913f68c789d8acf633be2af1271
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -1710,6 +1714,7 @@
             ],
             "description": "workerman extend for thinkphp5",
             "time": "2016-10-08T06:07:03+00:00"
+<<<<<<< HEAD
         },
         {
             "name": "tp5er/easyexcel",
@@ -1747,6 +1752,8 @@
             ],
             "description": "excel import and export",
             "time": "2017-10-31T17:47:39+00:00"
+=======
+>>>>>>> b11d7c045e1ae913f68c789d8acf633be2af1271
         },
         {
             "name": "webmozart/assert",

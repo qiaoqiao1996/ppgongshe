@@ -33,7 +33,11 @@
         "topthink/think-worker": "^1.0",
         "topthink/think-queue": "^1.0",
         "topthink/think-testing": "^1.0",
+<<<<<<< HEAD
         "tp5er/easyexcel": "dev-master"
+=======
+        "phpoffice/phpexcel": "^1.8"
+>>>>>>> b11d7c045e1ae913f68c789d8acf633be2af1271
     },
     "extra": {
         "think-path": "thinkphp"
