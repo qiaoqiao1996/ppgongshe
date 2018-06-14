@@ -68,7 +68,6 @@ var navs = [{
 },{
 
 	"title" : "商品标题",
-	"title" : "手机号管理",
 	"icon" : "&#xe61c;",
 	"href" : "",
 	"spread" : false,
@@ -153,5 +152,25 @@ var navs = [{
 			"spread" : false
 		}
 	]
+},{
+	"title" : "返利管理",
+	"icon" : "&#xe61c;",
+	"href" : "",
+	"spread" : false,
+	"children" : [
+		{
+			"title" : "会员/商家返利管理",
+			"icon" : "&#xe631;",
+			"href" : "index/rebate/rebateAdd.html",
+			"spread" : false
+		},
+		{
+			"title" : "vip返利列表",
+			"icon" : "&#xe631",
+			"href" : "index/rebate/rebateList.html",
+			"spread" : false
+		}
+	]
 }
+
 ]

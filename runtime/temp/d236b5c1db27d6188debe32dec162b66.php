@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:82:"D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html";i:1528805118;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +22,7 @@
 	 <table>
     <font size="3">    	（超级管理员）
      (<font color="red">
-    0</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='{$data.one}' name='rebate[]' id = 'id1' onblur='check_aa(1)' style="width:20px" class ='fl' >%
+    0</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='<?php echo $data['one']; ?>' name='rebate[]' id = 'id1' onblur='check_aa(1)' style="width:20px" class ='fl' >%
     <span id="s1"></span>
     </span>
     <input type="hidden" value='' name='rebate_id[]'>
@@ -32,7 +33,7 @@
     <table>
     <font size="3">		(会员)买家
 	 (<font color="red">
-    1</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='{$data.two}' name='rebate[]' id = 'id2' onblur='check_aa(2)' style="width:20px" class ='fl' >%
+    1</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='<?php echo $data['two']; ?>' name='rebate[]' id = 'id2' onblur='check_aa(2)' style="width:20px" class ='fl' >%
     <span id="s2"></span>
     </span>
     <input type="hidden" value='' name='rebate_id[]'>
@@ -43,7 +44,7 @@
     <table>
     <font size="3">		(会员)买家
 	 (<font color="red">
-    2</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='{$data.three}' name='rebate[]' id = 'id3' onblur='check_aa(3)' style="width:20px" class ='fl' >%
+    2</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='<?php echo $data['three']; ?>' name='rebate[]' id = 'id3' onblur='check_aa(3)' style="width:20px" class ='fl' >%
     <span id="s3"></span>
     </span>
     <input type="hidden" value='' name='rebate_id[]'>
@@ -54,7 +55,7 @@
     <table>
     <font size="3">		(会员)买家
 	 (<font color="red">
-    3</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='{$data.four}' name='rebate[]' id = 'id4' onblur='check_aa(4)' style="width:20px" class ='fl' >%
+    3</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='<?php echo $data['four']; ?>' name='rebate[]' id = 'id4' onblur='check_aa(4)' style="width:20px" class ='fl' >%
     <span id="s4"></span>
     </span>
     <input type="hidden" value='' name='rebate_id[]'>
@@ -65,7 +66,7 @@
     <table>	
     <font size="3">		(会员)买家
 	 (<font color="red">
-    4</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='{$data.five}' name='rebate[]' id = 'id5' onblur='check_aa(5)' style="width:20px" class ='fl' >%
+    4</font>级会员)返利率 <input style="color: red;width: 25px"  type="text" value='<?php echo $data['five']; ?>' name='rebate[]' id = 'id5' onblur='check_aa(5)' style="width:20px" class ='fl' >%
     <span id="s5"></span>
     </span>
     <input type="hidden" value='' name='rebate_id[]'>
@@ -154,7 +155,7 @@
 				$("#s"+v).val();
 				//alert(v);
 				$.ajax({
-					url:"{:url('Rebate/rebateAdd')}",
+					url:"<?php echo url('Rebate/rebateAdd'); ?>",
 					data:{
 						"rebate":val,
 						"v":v

@@ -1,0 +1,3102 @@
+[ 2018-06-14T14:31:30+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.235367s][吞吐率：4.25req/s] [内存消耗：1,646.02kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:31:31+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.200506s][吞吐率：4.99req/s] [内存消耗：1,649.08kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:31:35+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.253249s][吞吐率：3.95req/s] [内存消耗：2,351.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010549s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.pp_rebate' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\connector\Mysql.php:63]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:38:28+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.255649s][吞吐率：3.91req/s] [内存消耗：1,646.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528957898',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:38:28+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.215556s][吞吐率：4.64req/s] [内存消耗：1,649.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528957898',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:38:29+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.238466s][吞吐率：4.19req/s] [内存消耗：2,537.86kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528957898',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002719s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_rebate` [ RunTime:0.030123s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_rebate` LIMIT 1 [ RunTime:0.001519s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:38:42+08:00 ] ::1 ::1 POST /1/ppgongshe/public/index/rebate/rebateadd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateadd.html [运行时间：0.127915s][吞吐率：7.82req/s] [内存消耗：1,674.47kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateAdd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958316',
+)
+[ info ] [ PARAM ] array (
+  'rebate' => '3335',
+  'v' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: msg[D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php:20]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:24+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.124522s][吞吐率：8.03req/s] [内存消耗：1,646.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958316',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:24+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.173624s][吞吐率：5.76req/s] [内存消耗：1,649.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958316',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:24+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.225739s][吞吐率：4.43req/s] [内存消耗：2,388.77kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958316',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002530s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_rebate` [ RunTime:0.059122s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_rebate` LIMIT 1 [ RunTime:0.001571s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:31+08:00 ] ::1 ::1 POST /1/ppgongshe/public/index/rebate/rebateadd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateadd.html [运行时间：0.167962s][吞吐率：5.95req/s] [内存消耗：1,674.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateAdd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+  'rebate' => '30',
+  'v' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: msg[D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php:20]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:36+08:00 ] ::1 ::1 POST /1/ppgongshe/public/index/rebate/rebateadd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateadd.html [运行时间：0.157767s][吞吐率：6.34req/s] [内存消耗：1,674.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateAdd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+  'rebate' => '39',
+  'v' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: msg[D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php:20]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:41+08:00 ] ::1 ::1 POST /1/ppgongshe/public/index/rebate/rebateadd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateadd.html [运行时间：0.126090s][吞吐率：7.93req/s] [内存消耗：1,674.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateAdd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+  'rebate' => '15',
+  'v' => '3',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: msg[D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php:20]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:47+08:00 ] ::1 ::1 POST /1/ppgongshe/public/index/rebate/rebateadd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateadd.html [运行时间：0.147790s][吞吐率：6.77req/s] [内存消耗：1,674.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateAdd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+  'rebate' => '38',
+  'v' => '3',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: msg[D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php:20]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:39:50+08:00 ] ::1 ::1 POST /1/ppgongshe/public/index/rebate/rebateadd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateadd.html [运行时间：0.138241s][吞吐率：7.23req/s] [内存消耗：1,674.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateAdd.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+  'rebate' => '39',
+  'v' => '3',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: msg[D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php:20]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:40:32+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.182749s][吞吐率：5.47req/s] [内存消耗：1,665.94kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:42:16+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.171611s][吞吐率：5.83req/s] [内存消耗：1,646.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:42:16+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.206246s][吞吐率：4.85req/s] [内存消耗：1,649.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958370',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:42:23+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.224445s][吞吐率：4.46req/s] [内存消耗：1,889.71kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958542',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003669s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:42:25+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.182074s][吞吐率：5.49req/s] [内存消耗：2,555.68kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958542',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001965s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_rebate` [ RunTime:0.030749s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_rebate` LIMIT 1 [ RunTime:0.002104s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:43:29+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.135707s][吞吐率：7.37req/s] [内存消耗：1,646.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958542',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:43:30+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.153320s][吞吐率：6.52req/s] [内存消耗：1,649.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958542',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:43:30+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.177133s][吞吐率：5.65req/s] [内存消耗：1,889.71kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958542',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002333s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:43:30+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.272427s][吞吐率：3.67req/s] [内存消耗：2,405.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '_ga=GA1.1.927420585.1528889360; _gid=GA1.1.1858106347.1528889360; pgv_pvi=47012864; Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366,1528937017,1528957898; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958542',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002274s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_rebate` [ RunTime:0.030047s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_rebate` LIMIT 1 [ RunTime:0.000895s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:43:41+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.075435s][吞吐率：13.26req/s] [内存消耗：1,645.96kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:43:42+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.143179s][吞吐率：6.98req/s] [内存消耗：1,648.54kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:43:46+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.242851s][吞吐率：4.12req/s] [内存消耗：1,889.11kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011711s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:43+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.183791s][吞吐率：5.44req/s] [内存消耗：1,646.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:43+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.201864s][吞吐率：4.95req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:43+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.176282s][吞吐率：5.67req/s] [内存消耗：1,889.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002916s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:47+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.143196s][吞吐率：6.98req/s] [内存消耗：1,646.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:47+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.091350s][吞吐率：10.95req/s] [内存消耗：1,646.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:47+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.138290s][吞吐率：7.23req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:47+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.131067s][吞吐率：7.63req/s] [内存消耗：1,646.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:47+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.158022s][吞吐率：6.33req/s] [内存消耗：1,889.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002105s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:48+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.123411s][吞吐率：8.10req/s] [内存消耗：1,646.17kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:48+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.102213s][吞吐率：9.78req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:48+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.122424s][吞吐率：8.17req/s] [内存消耗：1,889.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001869s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:58+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.078433s][吞吐率：12.75req/s] [内存消耗：1,645.83kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958694',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:44:59+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.089864s][吞吐率：11.13req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958628; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958694',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:45:10+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.128658s][吞吐率：7.77req/s] [内存消耗：1,645.71kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:45:10+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.232982s][吞吐率：4.29req/s] [内存消耗：1,648.54kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:45:13+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.172987s][吞吐率：5.78req/s] [内存消耗：1,889.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002353s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:49:39+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.190325s][吞吐率：5.25req/s] [内存消耗：1,645.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:49:39+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.188770s][吞吐率：5.30req/s] [内存消耗：1,648.72kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:49:40+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.188893s][吞吐率：5.29req/s] [内存消耗：1,889.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003704s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pphome.user' doesn't exist[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:50:39+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index.php
+[ log ] localhost/1/ppgongshe/public/index.php [运行时间：0.180760s][吞吐率：5.53req/s] [内存消耗：1,690.77kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[x��T�n�F~�H��h�%i�RW�8ƃ���2?v�=��ԇ�Hb�RߠH�a.g��]�&�N��P|��}r���������ۍ{7���?\'w7��r{7�N_��t:y���~:�����L���7!���b�X�ltV���cS��.�<���ot�l�(iSC�k[2�aJ��YCr��2R�Z��eX�2K=�FK�D^bk4%�[��ǝ� ��kMMC_�o���}�iWG�+]K�%���N��<��ʯV�c�y�-�����u�E��3Cs��x�_�l5�����E9���yѬ�
+Ξ)�y�]�⥐p<C��S�4����KT�[�|�T8gV�R��E�=�����Oa��؛3ˈ��BIi�w_:kװ7�m)��⽷��C��[�H{����G�� �Q�5�؃���)(Z
+c�F�;8�x�2����b�n�Ԉ�k��N�ɡ�`�q�6���Y+�����G�Td��
+�K��x��Y��s���ಳ�G�6�R���}��K��K"����!p�0mA��bܫD����ԗ1��x�̆��C<�~أ�8�1x���.��^x����%�-R�49�#ht�;4��X�Y�1�$�XW�(s��3�/|gX Cn����ֻ��H0�/��ןh�:W��=��w��Yb���8[T�Țݠ吋��e�W�������7�~�*��>5�O��)�T����h��m@/Ј�nk�߫\�N�b�>Y�L����G��s�������+E[����H�F<����ow�7�ݮ4L����<��`�X�������E�~��{��9@���-�x>��j�~/�{�|�
+���8���C��~Í�[1hҬR�ƞؐl�sݡr�����5f8���q/��	�:�J�~n�y��S4�/�{��wҏ:�5/��A��nA?�Z()���ߏl��P��~\�x]�k�Nno���Q�(13) : eval()'d code(1) : eval()'d code:7]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:50:45+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.129968s][吞吐率：7.69req/s] [内存消耗：1,645.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958989',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:50:45+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.093951s][吞吐率：10.64req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958989',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:50:45+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.122903s][吞吐率：8.14req/s] [内存消耗：1,889.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528958717; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528958989',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001871s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'regirect_time' in 'field list'[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:50:57+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.171893s][吞吐率：5.82req/s] [内存消耗：1,645.71kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:50:57+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.244519s][吞吐率：4.09req/s] [内存消耗：1,648.54kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:51:01+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.287457s][吞吐率：3.48req/s] [内存消耗：1,889.09kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003131s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'regirect_time' in 'field list'[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:53:37+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.244714s][吞吐率：4.09req/s] [内存消耗：1,645.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:53:37+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.230703s][吞吐率：4.33req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:53:38+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.209962s][吞吐率：4.76req/s] [内存消耗：1,889.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002553s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rebate_money' in 'field list'[D:\phpStudy\WWW\1\ppgongshe\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:18+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.204523s][吞吐率：4.89req/s] [内存消耗：1,645.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959224',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:18+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.213552s][吞吐率：4.68req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959224',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:19+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.204434s][吞吐率：4.89req/s] [内存消耗：2,070.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959224',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateList.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003383s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT pp_user.user_id,regirect_time,rebate_money,user_name FROM pp_user LEFT JOIN pp_user_info ON pp_user.user_id=pp_user_info.user_id [ RunTime:0.001403s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:24+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateshow.html?user_id=12
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateshow.html?user_id=12 [运行时间：0.143917s][吞吐率：6.95req/s] [内存消耗：2,068.64kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateList.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959224',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateShow.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011602s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT rebate_type,rebate_user,rebate_money,rebate_level,rebate_pro,rebate_time FROM pp_rebateinfo WHERE user_id=12 [ RunTime:0.001421s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:31+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.151750s][吞吐率：6.59req/s] [内存消耗：2,405.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959064; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959390',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001862s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_rebate` [ RunTime:0.023876s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_rebate` LIMIT 1 [ RunTime:0.000888s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:43+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.152580s][吞吐率：6.55req/s] [内存消耗：1,645.71kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:44+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.241387s][吞吐率：4.14req/s] [内存消耗：1,648.54kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:48+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.135129s][吞吐率：7.40req/s] [内存消耗：1,911.02kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateList.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004010s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT pp_user.user_id,regirect_time,rebate_money,user_name FROM pp_user LEFT JOIN pp_user_info ON pp_user.user_id=pp_user_info.user_id [ RunTime:0.001374s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:49+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateshow.html?user_id=12
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateshow.html?user_id=12 [运行时间：0.114394s][吞吐率：8.74req/s] [内存消耗：1,909.88kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateList.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '12',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateShow.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001800s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT rebate_type,rebate_user,rebate_money,rebate_level,rebate_pro,rebate_time FROM pp_rebateinfo WHERE user_id=12 [ RunTime:0.001151s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:55+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateshow.html?user_id=11
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateshow.html?user_id=11 [运行时间：0.180364s][吞吐率：5.54req/s] [内存消耗：1,910.43kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateList.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateShow.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003062s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT rebate_type,rebate_user,rebate_money,rebate_level,rebate_pro,rebate_time FROM pp_rebateinfo WHERE user_id=11 [ RunTime:0.002207s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:56:58+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateshow.html?user_id=10
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateshow.html?user_id=10 [运行时间：0.114485s][吞吐率：8.73req/s] [内存消耗：1,910.43kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateList.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateShow.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002143s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT rebate_type,rebate_user,rebate_money,rebate_level,rebate_pro,rebate_time FROM pp_rebateinfo WHERE user_id=10 [ RunTime:0.001472s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:58:53+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.173134s][吞吐率：5.78req/s] [内存消耗：1,645.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:58:54+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.216552s][吞吐率：4.62req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T14:58:54+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.248296s][吞吐率：4.03req/s] [内存消耗：1,911.32kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateList.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005110s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT pp_user.user_id,regirect_time,rebate_money,user_name FROM pp_user LEFT JOIN pp_user_info ON pp_user.user_id=pp_user_info.user_id [ RunTime:0.002214s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T14:59:01+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateshow.html?user_id=11
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateshow.html?user_id=11 [运行时间：0.310592s][吞吐率：3.22req/s] [内存消耗：2,406.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateshow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/rebate/rebateList.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateShow.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010731s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT rebate_type,rebate_user,rebate_money,rebate_level,rebate_pro,rebate_time FROM pp_rebateinfo WHERE user_id=11 [ RunTime:0.001939s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_user` [ RunTime:0.041972s ]
+[ sql ] [ SQL ] SELECT `user_name` FROM `pp_user` WHERE  `user_id` = 5 LIMIT 1 [ RunTime:0.002184s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:00:35+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.178280s][吞吐率：5.61req/s] [内存消耗：1,646.14kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:00:36+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.283843s][吞吐率：3.52req/s] [内存消耗：1,649.32kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:00:36+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.210686s][吞吐率：4.75req/s] [内存消耗：1,911.88kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateList.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012331s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT pp_user.user_id,regirect_time,rebate_money,user_name FROM pp_user LEFT JOIN pp_user_info ON pp_user.user_id=pp_user_info.user_id [ RunTime:0.002446s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:10:48+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.519444s][吞吐率：1.93req/s] [内存消耗：2,405.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002407s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_rebate` [ RunTime:0.031685s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_rebate` LIMIT 1 [ RunTime:0.001120s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:00+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/type/typeList.html
+[ log ] localhost/1/ppgongshe/public/index/type/typeList.html [运行时间：0.363901s][吞吐率：2.75req/s] [内存消耗：2,717.43kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'type',
+    2 => 'typeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Type->typeList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Type.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\type\typeList.html [ array (
+  0 => 'data',
+  1 => 'pagesum',
+  2 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003031s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_type` [ RunTime:0.042687s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name`,`enabled`,`type_content` FROM `pp_goods_type` WHERE  (  1=1 ) [ RunTime:0.001796s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name`,`enabled`,`type_content` FROM `pp_goods_type` WHERE  (  1=1 ) LIMIT 0,10 [ RunTime:0.001277s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:01+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.124931s][吞吐率：8.00req/s] [内存消耗：1,387.19kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/type/typeList.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:04+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goodscategory/categoryAdd
+[ log ] localhost/1/ppgongshe/public/index/goodscategory/categoryAdd [运行时间：0.499085s][吞吐率：2.00req/s] [内存消耗：2,680.25kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goodscategory',
+    2 => 'categoryAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Goodscategory->categoryAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Goodscategory.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\goodscategory\categoryAdd.html [ array (
+  0 => 'datas',
+  1 => 'goods_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003066s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_category` [ RunTime:0.100641s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_category` [ RunTime:0.009314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_type` [ RunTime:0.043657s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_type` [ RunTime:0.001113s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:06+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goodscategory/categoryShow
+[ log ] localhost/1/ppgongshe/public/index/goodscategory/categoryShow [运行时间：0.279156s][吞吐率：3.58req/s] [内存消耗：2,432.06kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goodscategory',
+    2 => 'categoryShow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Goodscategory->categoryShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Goodscategory.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\goodscategory\categoryShow.html [ array (
+  0 => 'data',
+  1 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004670s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_category` [ RunTime:0.035722s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pp_goods_category` LIMIT 1 [ RunTime:0.003580s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_category` LIMIT 0,6 [ RunTime:0.001424s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:06+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.074581s][吞吐率：13.41req/s] [内存消耗：1,387.15kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/goodscategory/categoryShow',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:27+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleShow
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleShow [运行时间：0.439059s][吞吐率：2.28req/s] [内存消耗：2,401.09kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleShow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleShow.html [ array (
+  0 => 'data',
+  1 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002754s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_show_title` [ RunTime:0.054043s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pp_show_title` LIMIT 1 [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_show_title` LIMIT 0,6 [ RunTime:0.001709s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:27+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.244959s][吞吐率：4.08req/s] [内存消耗：1,387.19kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/showtitle/titleShow',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:13:29+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleAdd
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleAdd [运行时间：0.384247s][吞吐率：2.60req/s] [内存消耗：1,644.82kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleAdd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:38+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
+[ log ] localhost/1/ppgongshe/public/ [运行时间：0.157828s][吞吐率：6.34req/s] [内存消耗：1,645.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:39+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
+[ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.198847s][吞吐率：5.03req/s] [内存消耗：1,648.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:39+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateList.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateList.html [运行时间：0.195415s][吞吐率：5.12req/s] [内存消耗：1,911.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateList.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001939s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT pp_user.user_id,regirect_time,rebate_money,user_name FROM pp_user LEFT JOIN pp_user_info ON pp_user.user_id=pp_user_info.user_id [ RunTime:0.013127s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:40+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleAdd
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleAdd [运行时间：0.466261s][吞吐率：2.14req/s] [内存消耗：1,644.82kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleAdd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:40+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/rebate/rebateAdd.html
+[ log ] localhost/1/ppgongshe/public/index/rebate/rebateAdd.html [运行时间：0.716191s][吞吐率：1.40req/s] [内存消耗：2,405.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'rebate',
+    2 => 'rebateAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Rebate->rebateAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Rebate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\rebate\rebateAdd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003058s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_rebate` [ RunTime:0.038131s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_rebate` LIMIT 1 [ RunTime:0.002362s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:40+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goodscategory/categoryAdd
+[ log ] localhost/1/ppgongshe/public/index/goodscategory/categoryAdd [运行时间：0.918083s][吞吐率：1.09req/s] [内存消耗：2,680.25kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goodscategory',
+    2 => 'categoryAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Goodscategory->categoryAdd[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Goodscategory.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\goodscategory\categoryAdd.html [ array (
+  0 => 'datas',
+  1 => 'goods_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_category` [ RunTime:0.049588s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_category` [ RunTime:0.002620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_type` [ RunTime:0.032376s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_type` [ RunTime:0.001424s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:40+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goodscategory/categoryShow
+[ log ] localhost/1/ppgongshe/public/index/goodscategory/categoryShow [运行时间：0.955431s][吞吐率：1.05req/s] [内存消耗：2,432.06kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goodscategory',
+    2 => 'categoryShow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Goodscategory->categoryShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Goodscategory.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\goodscategory\categoryShow.html [ array (
+  0 => 'data',
+  1 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003328s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_category` [ RunTime:0.049902s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pp_goods_category` LIMIT 1 [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_goods_category` LIMIT 0,6 [ RunTime:0.002347s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:40+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/type/typeList.html
+[ log ] localhost/1/ppgongshe/public/index/type/typeList.html [运行时间：1.117947s][吞吐率：0.89req/s] [内存消耗：2,717.43kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'type',
+    2 => 'typeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Type->typeList[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Type.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\type\typeList.html [ array (
+  0 => 'data',
+  1 => 'pagesum',
+  2 => 'sum',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132350s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_goods_type` [ RunTime:0.164799s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name`,`enabled`,`type_content` FROM `pp_goods_type` WHERE  (  1=1 ) [ RunTime:0.002490s ]
+[ sql ] [ SQL ] SELECT `type_id`,`type_name`,`enabled`,`type_content` FROM `pp_goods_type` WHERE  (  1=1 ) LIMIT 0,10 [ RunTime:0.002040s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:40+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/showtitle/titleShow
+[ log ] localhost/1/ppgongshe/public/index/showtitle/titleShow [运行时间：1.124312s][吞吐率：0.89req/s] [内存消耗：2,401.09kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'showtitle',
+    2 => 'titleShow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/1/ppgongshe/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Showtitle->titleShow[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Showtitle.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\showtitle\titleShow.html [ array (
+  0 => 'data',
+  1 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.115918s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pp_show_title` [ RunTime:0.145717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pp_show_title` LIMIT 1 [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `pp_show_title` LIMIT 0,6 [ RunTime:0.001054s ]
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:42+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.179435s][吞吐率：5.57req/s] [内存消耗：1,387.15kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/goodscategory/categoryShow',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:42+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.130628s][吞吐率：7.66req/s] [内存消耗：1,387.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/type/typeList.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-14T15:14:42+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
+[ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.102819s][吞吐率：9.73req/s] [内存消耗：1,387.19kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'json',
+    2 => 'newsList.json',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'referer' => 'http://localhost/1/ppgongshe/public/index/showtitle/titleShow',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528959411; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528959642',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
