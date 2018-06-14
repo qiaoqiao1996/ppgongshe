@@ -171,6 +171,25 @@ var navs = [{
 			"spread" : false
 		}
 	]
+},{
+	"title" : "品牌分类管理",
+	"icon" : "&#xe61c;",
+	"href" : "",
+	"spread" : false,
+	"children" : [
+		{
+			"title" : "品牌管理",
+			"icon" : "&#xe631;",
+			"href" : "index.php/index/Brand/brand",
+			"spread" : false
+		},
+		{
+			"title" : "分类管理",
+			"icon" : "&#xe631;",
+			"href" : "index.php/index/Cate/cateList",
+			"spread" : false
+		}
+	]
 }
 
 ]

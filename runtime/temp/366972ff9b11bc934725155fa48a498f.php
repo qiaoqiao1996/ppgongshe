@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\brand\brand.html";i:1528977154;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +18,7 @@
 	<blockquote class="layui-elem-quote news_search">
 		
 		<div class="layui-inline">
-			<a class="layui-btn layui-btn-normal " href="{:url('brand/brandAdd')}">添加品牌</a>
+			<a class="layui-btn layui-btn-normal " href="<?php echo url('brand/brandAdd'); ?>">添加品牌</a>
 		</div>
 		
 		<div class="layui-inline">
@@ -46,30 +47,29 @@
 					<th>是否显示</th>
 					<th>操作</th>
 				</tr> 
-				{volist name="data" id="vo"}
-				<tr class="tr" brand_id="{$vo.brand_id}">
+				<?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+				<tr class="tr" brand_id="<?php echo $vo['brand_id']; ?>">
 					<th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>
 					<td>
-						<span>{$vo.brand_name}</span>
-						<span><img src="../../../../../uploads/{$vo.brand_logo}"  alt="" width="100px"></span>
+						<span><?php echo $vo['brand_name']; ?></span>
+						<span><img src="../../../../../uploads/<?php echo $vo['brand_logo']; ?>"  alt="" width="100px"></span>
 					</td>
-					<td>{$vo.brand_desc}</td>
-					<td>{$vo.sort_order}</td>
+					<td><?php echo $vo['brand_desc']; ?></td>
+					<td><?php echo $vo['sort_order']; ?></td>
 					<td>
 						<?php 
 							if($vo['is_show'] == '0'){
 								echo "<span>未启用</span>";
 							}
-						 ?>
-						 <?php 
+						 
 						 	if($vo['is_show'] == '1'){
 						 		echo "<span>已启用</span>";
 						 	}
 						  ?>
 					</td>
-					<td align="center"><a href="{:url('brandDelete')}?id={$vo.brand_id}">删除</a> | <a href="{:url('brandUpdate')}?id={$vo.brand_id}">修改</a></td>
+					<td align="center"><a href="<?php echo url('brandDelete'); ?>?id=<?php echo $vo['brand_id']; ?>">删除</a> | <a href="<?php echo url('brandUpdate'); ?>?id=<?php echo $vo['brand_id']; ?>">修改</a></td>
 				</tr>
-				{/volist}
+				<?php endforeach; endif; else: echo "" ;endif; ?>
 		    </thead>
 		    <tbody class="news_content"></tbody>
 		</table>

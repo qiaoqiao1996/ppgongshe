@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:86:"D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\comm_type_show.html";i:1528800627;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:86:"D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\comm_type_show.html";i:1528977680;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

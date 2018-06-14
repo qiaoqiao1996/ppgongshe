@@ -25,13 +25,13 @@ class Brand extends Controller{
 
 			$file = request()->file('brand_logo');
 
-			if(!file_exists(ROOT_PATH.'public'.DS.'uploads'))
-			{
-				mkdir(ROOT_PATH.'public'.DS.'uploads',777);
-			}
+			// if(!file_exists(ROOT_PATH.'public'.DS.'uploads'))
+			// {
+			// 	mkdir('../../uploads',777);
+			// }
 
 
-			$info = $file->validate(['ext'=>'jpg,png,gif,jpeg'])->move(ROOT_PATH.'public'.DS.'uploads');
+			$info = $file->validate(['ext'=>'jpg,png,gif,jpeg'])->move('../../uploads');
 
 			if($info){
 
@@ -121,7 +121,7 @@ class Brand extends Controller{
 		$file = request()->file('brand_logo');
 		if(isset($file)){  
          
-       		$info = $file->move(ROOT_PATH . 'public/uploads');
+       		$info = $file->move('../../uploads');
   
 			if($info){  
 				// 成功上传后 获取上传信息  
@@ -130,7 +130,7 @@ class Brand extends Controller{
 				// $imgpath='uploads/'.$a;  
 
 				$data['brand_logo']= $a;  
-				unlink(ROOT_PATH . 'public\\uploads\\'.$brand['brand_logo']);
+				// unlink(ROOT_PATH . 'public\\uploads\\'.$brand['brand_logo']);
 			}else{
 			  	//上传错误信息
 			  	echo $file->getError();

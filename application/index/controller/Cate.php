@@ -96,11 +96,11 @@ class Cate extends Controller
 			// print_r($cate_data);die;
 
 			$file = request()->file('cat_logo');
-			if(!file_exists(ROOT_PATH.'public'.DS.'uploads'))
-			{
-				mkdir(ROOT_PATH.'public'.DS.'uploads',777);
-			}
-			$info = $file->validate(['ext'=>'jpg,png,gif,jpeg'])->move(ROOT_PATH.'public'.DS.'uploads');
+			// if(!file_exists(ROOT_PATH.'public'.DS.'uploads'))
+			// {
+			// 	mkdir(ROOT_PATH.'public'.DS.'uploads',777);
+			// }
+			$info = $file->validate(['ext'=>'jpg,png,gif,jpeg'])->move('../../uploads');
 
 			if($info){
 
@@ -303,7 +303,7 @@ class Cate extends Controller
         // $info = $file->move(ROOT_PATH . 'public/uploads');  
        	// var_dump($info) ;die;  
   
-        $info = $file->validate(['ext'=>'jpg,png,gif,jpeg'])->move(ROOT_PATH.'public'.DS.'uploads');
+        $info = $file->validate(['ext'=>'jpg,png,gif,jpeg'])->move('../../uploads');
 
 		if($info){
 
@@ -316,7 +316,7 @@ class Cate extends Controller
  		}else{
  			echo $file->getError();
  		}
- 		unlink(ROOT_PATH . 'public\\uploads\\'.$cate['cat_logo']);
+ 		// unlink(ROOT_PATH . 'public\\uploads\\'.$cate['cat_logo']);
  		$post_data['cat_logo'] = $info->getSaveName();
 
 		$res = Db::table('pp_goods_category')->where('cat_id', $cat_id)->update($post_data);
