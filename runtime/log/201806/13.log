@@ -800,9 +800,15 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:24:34+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：1.168235s][吞吐率：0.86req/s] [内存消耗：2,052.97kb] [文件加载：48]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:39:16+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
 [ log ] localhost/1/ppgongshe/public/ [运行时间：0.200410s][吞吐率：4.99req/s] [内存消耗：1,646.17kb] [文件加载：46]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -813,6 +819,20 @@
   ),
 )
 [ info ] [ HEADER ] array (
+<<<<<<< HEAD
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+=======
   'host' => 'localhost',
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
@@ -828,13 +848,20 @@
 )
 [ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
 [ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 ) ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/main.html
+[ log ] www.pphome.com/index/index/main.html [运行时间：0.117134s][吞吐率：8.54req/s] [内存消耗：1,886.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:39:17+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
 [ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.286761s][吞吐率：3.49req/s] [内存消耗：1,648.84kb] [文件加载：46]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -845,6 +872,21 @@
   ),
 )
 [ info ] [ HEADER ] array (
+<<<<<<< HEAD
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\main.html [ array (
+=======
   'host' => 'localhost',
   'connection' => 'keep-alive',
   'upgrade-insecure-requests' => '1',
@@ -859,18 +901,52 @@
 )
 [ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
 [ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 ) ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:24:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/mobilecard/cardList
+[ log ] www.pphome.com/index/mobilecard/cardList [运行时间：0.250913s][吞吐率：3.99req/s] [内存消耗：2,054.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:39:17+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goodscategory/categoryAdd
 [ log ] localhost/1/ppgongshe/public/index/goodscategory/categoryAdd [运行时间：0.376489s][吞吐率：2.66req/s] [内存消耗：2,681.22kb] [文件加载：54]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'mobilecard',
+    2 => 'cardList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mobilecard->cardList[ D:\www\wamp\www\ppgongshe\application\index\controller\Mobilecard.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\mobilecard\card_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/systemParameter.html
+[ log ] www.pphome.com/index/index/systemParameter.html [运行时间：0.268533s][吞吐率：3.72req/s] [内存消耗：1,886.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'goodscategory',
     2 => 'categoryAdd',
   ),
@@ -905,11 +981,32 @@
 [ 2018-06-13T10:39:17+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/comm_type.html
 [ log ] localhost/1/ppgongshe/public/index/buurt/comm_type.html [运行时间：0.321233s][吞吐率：3.11req/s] [内存消耗：1,657.88kb] [文件加载：46]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'index',
+    2 => 'systemParameter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->systemParameter[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\systemParameter.html [ array (
+=======
     1 => 'buurt',
     2 => 'comm_type',
   ),
@@ -929,18 +1026,52 @@
 )
 [ info ] [ RUN ] app\index\controller\Buurt->comm_type[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Buurt.php ]
 [ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\comm_type.html [ array (
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 ) ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/get404.html
+[ log ] www.pphome.com/index/index/get404.html [运行时间：0.273698s][吞吐率：3.65req/s] [内存消耗：1,886.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:39:17+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/comm_type_show.html
 [ log ] localhost/1/ppgongshe/public/index/buurt/comm_type_show.html [运行时间：0.417518s][吞吐率：2.40req/s] [内存消耗：2,448.02kb] [文件加载：55]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'index',
+    2 => 'get404',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->get404[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\404.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:24:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/mobilecard/cardData
+[ log ] www.pphome.com/index/mobilecard/cardData [运行时间：5.382927s][吞吐率：0.19req/s] [内存消耗：3,008.31kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'buurt',
     2 => 'comm_type_show',
   ),
@@ -973,11 +1104,39 @@
 [ 2018-06-13T10:39:17+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/slidestrate.html
 [ log ] localhost/1/ppgongshe/public/index/buurt/slidestrate.html [运行时间：0.409720s][吞吐率：2.44req/s] [内存消耗：2,343.36kb] [文件加载：52]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'mobilecard',
+    2 => 'cardData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'referer' => 'http://www.pphome.com/index/mobilecard/cardList',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mobilecard->cardData[ D:\www\wamp\www\ppgongshe\application\index\controller\Mobilecard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)[D:\www\wamp\www\ppgongshe\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2018-06-13T11:24:54+08:00 ] 127.0.0.1 127.0.0.1 GET /json/systemParameter.json
+[ log ] www.pphome.com/json/systemParameter.json [运行时间：2.421798s][吞吐率：0.41req/s] [内存消耗：1,586.23kb] [文件加载：40]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'buurt',
     2 => 'slidestrate',
   ),
@@ -1045,6 +1204,7 @@
 [ 2018-06-13T10:39:18+08:00 ] ::1 ::1 GET /1/ppgongshe/public/json/systemParameter.json
 [ log ] localhost/1/ppgongshe/public/json/systemParameter.json [运行时间：0.189668s][吞吐率：5.27req/s] [内存消耗：1,386.67kb] [文件加载：40]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1055,6 +1215,16 @@
   ),
 )
 [ info ] [ HEADER ] array (
+<<<<<<< HEAD
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'referer' => 'http://www.pphome.com/index/index/systemParameter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+=======
   'host' => 'localhost',
   'connection' => 'keep-alive',
   'accept' => 'application/json, text/javascript, */*; q=0.01',
@@ -1120,15 +1290,22 @@
   'accept-encoding' => 'gzip, deflate, br',
   'accept-language' => 'zh-CN,zh;q=0.8',
   'cookie' => 'Hm_lvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366; Hm_lpvt_dde6ba2851f3db0ddc415ce0f895822e=1528857366',
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 )
 [ info ] [ PARAM ] array (
 )
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:25:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：0.101415s][吞吐率：9.86req/s] [内存消耗：1,884.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:46:20+08:00 ] ::1 ::1 GET /1/ppgongshe/public/
 [ log ] localhost/1/ppgongshe/public/ [运行时间：0.269671s][吞吐率：3.71req/s] [内存消耗：1,646.17kb] [文件加载：46]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1139,6 +1316,21 @@
   ),
 )
 [ info ] [ HEADER ] array (
+<<<<<<< HEAD
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+=======
   'host' => 'localhost',
   'connection' => 'keep-alive',
   'cache-control' => 'max-age=0',
@@ -1154,13 +1346,20 @@
 )
 [ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
 [ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\index.html [ array (
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 ) ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:25:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/main.html
+[ log ] www.pphome.com/index/index/main.html [运行时间：0.110785s][吞吐率：9.03req/s] [内存消耗：1,886.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:46:21+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/index/main.html
 [ log ] localhost/1/ppgongshe/public/index/index/main.html [运行时间：0.322975s][吞吐率：3.10req/s] [内存消耗：1,648.84kb] [文件加载：46]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
@@ -1171,6 +1370,21 @@
   ),
 )
 [ info ] [ HEADER ] array (
+<<<<<<< HEAD
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\main.html [ array (
+=======
   'host' => 'localhost',
   'connection' => 'keep-alive',
   'upgrade-insecure-requests' => '1',
@@ -1185,17 +1399,51 @@
 )
 [ info ] [ RUN ] app\index\controller\Index->main[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Index.php ]
 [ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\index\main.html [ array (
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 ) ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:26:32+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：0.195996s][吞吐率：5.10req/s] [内存消耗：1,883.79kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:46:22+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/slideshow.html
 [ log ] localhost/1/ppgongshe/public/index/buurt/slideshow.html [运行时间：0.476587s][吞吐率：2.10req/s] [内存消耗：2,411.31kb] [文件加载：53]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:26:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/main.html
+[ log ] www.pphome.com/index/index/main.html [运行时间：0.194030s][吞吐率：5.15req/s] [内存消耗：1,886.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     0 => 'index',
     1 => 'buurt',
     2 => 'slideshow',
@@ -1228,11 +1476,39 @@
 [ 2018-06-13T10:46:22+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goodscategory/categoryAdd
 [ log ] localhost/1/ppgongshe/public/index/goodscategory/categoryAdd [运行时间：0.653216s][吞吐率：1.53req/s] [内存消耗：2,681.22kb] [文件加载：54]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:28:34+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：0.088028s][吞吐率：11.36req/s] [内存消耗：1,884.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'goodscategory',
     2 => 'categoryAdd',
   ),
@@ -1267,10 +1543,39 @@
 [ 2018-06-13T10:46:22+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/comm_type_show.html
 [ log ] localhost/1/ppgongshe/public/index/buurt/comm_type_show.html [运行时间：0.620191s][吞吐率：1.61req/s] [内存消耗：2,448.02kb] [文件加载：55]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:28:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/main.html
+[ log ] www.pphome.com/index/index/main.html [运行时间：0.136657s][吞吐率：7.32req/s] [内存消耗：1,886.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     0 => 'index',
     1 => 'buurt',
     2 => 'comm_type_show',
@@ -1304,11 +1609,32 @@
 [ 2018-06-13T10:46:22+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/comm_type.html
 [ log ] localhost/1/ppgongshe/public/index/buurt/comm_type.html [运行时间：0.595368s][吞吐率：1.68req/s] [内存消耗：1,657.88kb] [文件加载：46]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\main.html [ array (
+=======
     1 => 'buurt',
     2 => 'comm_type',
   ),
@@ -1328,17 +1654,52 @@
 )
 [ info ] [ RUN ] app\index\controller\Buurt->comm_type[ D:\phpStudy\WWW\1\ppgongshe\application\index\controller\Buurt.php ]
 [ info ] [ VIEW ] D:\phpStudy\WWW\1\ppgongshe\public/../application/index\view\buurt\comm_type.html [ array (
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 ) ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+<<<<<<< HEAD
+[ 2018-06-13T11:28:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：0.089170s][吞吐率：11.21req/s] [内存消耗：1,884.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
 [ 2018-06-13T10:46:22+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/buurt/slidestrate.html
 [ log ] localhost/1/ppgongshe/public/index/buurt/slidestrate.html [运行时间：0.647112s][吞吐率：1.55req/s] [内存消耗：2,343.36kb] [文件加载：52]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:28:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/main.html
+[ log ] www.pphome.com/index/index/main.html [运行时间：0.155615s][吞吐率：6.43req/s] [内存消耗：1,886.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     0 => 'index',
     1 => 'buurt',
     2 => 'slidestrate',
@@ -1399,11 +1760,39 @@
 [ 2018-06-13T10:46:23+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
 [ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.158427s][吞吐率：6.31req/s] [内存消耗：1,387.16kb] [文件加载：40]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:42:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：12.654417s][吞吐率：0.08req/s] [内存消耗：1,884.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'json',
     2 => 'newsList.json',
   ),
@@ -1491,10 +1880,39 @@
 [ 2018-06-13T10:46:30+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
 [ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.108660s][吞吐率：9.20req/s] [内存消耗：1,387.19kb] [文件加载：40]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:42:10+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：0.106612s][吞吐率：9.38req/s] [内存消耗：1,884.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     0 => 'index',
     1 => 'json',
     2 => 'newsList.json',
@@ -1564,10 +1982,39 @@
 [ 2018-06-13T10:47:58+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/goods/goodsShow
 [ log ] localhost/1/ppgongshe/public/index/goods/goodsShow [运行时间：0.595599s][吞吐率：1.68req/s] [内存消耗：2,425.51kb] [文件加载：54]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:42:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/main.html
+[ log ] www.pphome.com/index/index/main.html [运行时间：0.472260s][吞吐率：2.12req/s] [内存消耗：1,886.68kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     0 => 'index',
     1 => 'goods',
     2 => 'goodsShow',
@@ -1602,11 +2049,39 @@
 [ 2018-06-13T10:48:02+08:00 ] ::1 ::1 POST /1/ppgongshe/public/index/goods/page
 [ log ] localhost/1/ppgongshe/public/index/goods/page [运行时间：0.158244s][吞吐率：6.32req/s] [内存消耗：1,851.63kb] [文件加载：48]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->main[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:42:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index/mobilecard/cardList
+[ log ] www.pphome.com/index/mobilecard/cardList [运行时间：0.854964s][吞吐率：1.17req/s] [内存消耗：1,893.92kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'goods',
     2 => 'page',
   ),
@@ -1711,11 +2186,39 @@
 [ 2018-06-13T10:48:06+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/type/typeList.html
 [ log ] localhost/1/ppgongshe/public/index/type/typeList.html [运行时间：0.518277s][吞吐率：1.93req/s] [内存消耗：2,718.24kb] [文件加载：55]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'mobilecard',
+    2 => 'cardList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mobilecard->cardList[ D:\www\wamp\www\ppgongshe\application\index\controller\Mobilecard.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\mobilecard\card_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-13T11:42:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/mobilecard/cardData
+[ log ] www.pphome.com/index/mobilecard/cardData [运行时间：1.425030s][吞吐率：0.70req/s] [内存消耗：3,008.31kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'type',
     2 => 'typeList',
   ),
@@ -1750,11 +2253,39 @@
 [ 2018-06-13T10:48:07+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/json/newsList.json
 [ log ] localhost/1/ppgongshe/public/index/json/newsList.json [运行时间：0.186163s][吞吐率：5.37req/s] [内存消耗：1,387.19kb] [文件加载：40]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'mobilecard',
+    2 => 'cardData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'referer' => 'http://www.pphome.com/index/mobilecard/cardList',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mobilecard->cardData[ D:\www\wamp\www\ppgongshe\application\index\controller\Mobilecard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)[D:\www\wamp\www\ppgongshe\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2018-06-13T11:47:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/mobilecard/cardAdd
+[ log ] www.pphome.com/index/mobilecard/cardAdd [运行时间：10.677400s][吞吐率：0.09req/s] [内存消耗：3,004.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'json',
     2 => 'newsList.json',
   ),
@@ -1778,11 +2309,39 @@
 [ 2018-06-13T10:48:09+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/attribute/attrlist.html?type_id=226
 [ log ] localhost/1/ppgongshe/public/index/attribute/attrlist.html?type_id=226 [运行时间：0.305739s][吞吐率：3.27req/s] [内存消耗：2,712.10kb] [文件加载：55]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
     0 => 'index',
+<<<<<<< HEAD
+    1 => 'mobilecard',
+    2 => 'cardAdd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pphome.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.7 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pphome.com/index/mobilecard/cardList',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mobilecard->cardAdd[ D:\www\wamp\www\ppgongshe\application\index\controller\Mobilecard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)[D:\www\wamp\www\ppgongshe\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2018-06-13T15:49:20+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.pphome.com/ [运行时间：2.351641s][吞吐率：0.43req/s] [内存消耗：1,883.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\www\wamp\www\ppgongshe\thinkphp\lang\zh-cn.php
+=======
     1 => 'attribute',
     2 => 'attrlist',
   ),
@@ -1821,10 +2380,31 @@
 [ 2018-06-13T10:48:12+08:00 ] ::1 ::1 GET /1/ppgongshe/public/index/attribute/attradd.html?type_id=226
 [ log ] localhost/1/ppgongshe/public/index/attribute/attradd.html?type_id=226 [运行时间：0.383300s][吞吐率：2.61req/s] [内存消耗：2,709.70kb] [文件加载：55]
 [ info ] [ LANG ] D:\phpStudy\WWW\1\ppgongshe\thinkphp\lang\zh-cn.php
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
+<<<<<<< HEAD
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727)',
+  'host' => 'www.pphome.com',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\wamp\www\ppgongshe\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\wamp\www\ppgongshe\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+=======
     0 => 'index',
     1 => 'attribute',
     2 => 'attradd',
@@ -6376,5 +6956,6 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.002118s ] mysql:dbname=pphome;host=127.0.0.1;port=3306;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `pp_number_card` [ RunTime:0.033470s ]
 [ sql ] [ SQL ] SELECT `c`.`card_number`,`c`.`card_id`,`m`.`d_name`,`c`.`card_status`,`t`.`type_name` FROM `pp_number_card` `c` INNER JOIN `pp_phone_type` `t` ON `c`.`type_id`=`t`.`type_id` INNER JOIN `pp_set_meal_details` `m` ON `c`.`details_id`=`m`.`details_id` [ RunTime:0.009238s ]
+>>>>>>> eb5f47b57765ec0a2acb764a3954d16efba8bece
 
 ---------------------------------------------------------------
