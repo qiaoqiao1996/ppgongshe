@@ -190,6 +190,33 @@ var navs = [{
 			"spread" : false
 		}
 	]
+},{
+	"title" : "报修管理",
+	"icon" : "&#xe61c;",
+	"href" : "",
+	"spread" : false,
+	"children" : [
+		{
+			"title" : "报修展示",
+			"icon" : "&#xe631;",
+			"href" : "index/Repair/show",
+			"spread" : false
+		}
+		
+	]
+},{
+	"title" : "意见管理",
+	"icon" : "&#xe61c;",
+	"href" : "",
+	"spread" : false,
+	"children" : [
+		{
+			"title" : "意见展示",
+			"icon" : "&#xe631;",
+			"href" : "index/Opinion/show",
+			"spread" : false
+		}
+		
+	]
 }
-
 ]
